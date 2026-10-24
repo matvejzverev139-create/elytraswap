@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraswap",
+  "version": "${version}",
+  "name": "Elytra Swap",
+  "description": "Swap between chestplate and elytra, plus optional auto-swap when falling.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.elytraswap.ElytraSwapClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
